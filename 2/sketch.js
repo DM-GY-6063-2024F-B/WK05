@@ -1,9 +1,10 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(255, 20, 120);
-  rectMode(CENTER);
+  background(20);
 }
 
 function draw() {
-  rect(width / 2, height / 2, 100);
+  rect(100, 50, 400, 200);
+
+  ellipse(200, 500, 300);
 }
