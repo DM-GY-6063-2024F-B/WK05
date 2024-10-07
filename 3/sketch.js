@@ -1,3 +1,7 @@
+// TODO: animation across the screen
+//       wrap around
+//       bounce
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(20);

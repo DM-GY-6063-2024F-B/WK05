@@ -1,3 +1,5 @@
+// TODO: mouse hover effect
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(20);

@@ -1,3 +1,5 @@
+// TODO: global state variables
+
 let cc;
 
 function setup() {

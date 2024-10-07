@@ -1,3 +1,5 @@
+// TODO: time with map() and mod
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(20);

@@ -1,3 +1,5 @@
+// TODO: use mouseX and mouseY
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(255, 20, 120);
