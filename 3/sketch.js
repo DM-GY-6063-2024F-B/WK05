@@ -1,13 +1,23 @@
-// TODO: animation across the screen
-//       wrap around
-//       bounce
+let xpos;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(20);
-  for (let x = 0; x < width; x += 2) {
-    ellipse(x, height / 2, 100);
-  }
+
+  // initial condition
+  xpos = 0;
 }
 
-function draw() {}
+function draw() {
+  background(20);
+
+  // draw stuff with variable xpos
+  ellipse(xpos, height / 2, 100);
+
+  // update xpos
+  xpos += 2;
+
+  // check if need to reset x
+  if (xpos > width) {
+    xpos = 0;
+  }
+}
